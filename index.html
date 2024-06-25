@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login and Sign Up</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div id="loginForm">
+          <h1 class="text-center fw-bold flex">Login</h1>
+          <form id="login">
+            <div class="form-group m-2">
+              <label for="loginEmail">Email address:</label>
+              <input type="email" class="form-control" id="loginEmail" required>
+            </div>
+            <div class="form-group m-2">
+              <label for="loginPassword">Password:</label>
+              <input type="password" class="form-control" id="loginPassword" required>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary mt-2">Login</button>
+            </div>
+          </form>
+          <p>Don't have an account? <a href="#" id="showSignUp">Sign up here</a></p>
+        </div>
+
+        <div id="signUpForm" style="display: none;">
+          <h2 class="text-center fw-bold flex">Sign Up</h2>
+          <form id="signup">
+            <div class="form-group m-2">
+              <label for="signupEmail">Email address:</label>
+              <input type="email" class="form-control" id="signupEmail" required>
+            </div>
+            <div class="form-group m-2">
+              <label for="signupPassword">Password:</label>
+              <input type="password" class="form-control" id="signupPassword" required>
+            </div>
+            <div class="form-group m-2">
+              <label for="confirmPassword">Confirm Password:</label>
+              <input type="password" class="form-control" id="confirmPassword" required>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary">Sign Up</button>
+            </div>
+          </form>
+          <p>Already have an account? <a href="#" id="showLogin">Login here</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

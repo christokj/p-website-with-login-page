@@ -1,0 +1,116 @@
+.navbar-btn {
+    border-color: #ffff;
+}
+
+.name:hover {
+    letter-spacing: .15rem;
+}
+
+.header-btn {
+    color: #ffff;
+}
+
+.header-btn:hover {
+    color: #989292;
+    letter-spacing: .03rem;
+}
+
+.header-btn:active {
+    color: red;
+}
+
+.form-radius {
+    border-radius: 10rem;
+}
+
+.quotes {
+    white-space: pre;
+}
+
+
+.card-img-top {
+    width: 18rem;
+    height: 12rem;
+    max-width: 100%;
+}
+
+.container-section {
+    padding-top: 7em;
+    z-index: 100;
+}
+
+.services_card:hover {
+    background-color: antiquewhite;
+}
+
+.experiences-card {
+    height: 20rem;
+}
+
+.sign-in-btn {
+    width: 100%;
+}
+
+.bottom-social-icons {
+    font-size: 2rem;
+}
+
+.card-body h5 {
+    text-align: center;
+}
+
+.icon-whatsapp {
+    color: #ffff;
+}
+
+.icon-whatsapp:hover {
+
+    color: #5ef278;
+
+}
+
+.icon-facebook {
+    color: #ffff;
+
+}
+
+.icon-facebook:hover {
+    color: #0863f7;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.icon-instagram {
+    color: #ffff;
+
+}
+
+.icon-instagram:hover {
+    background-image: linear-gradient(#8938c5, #f74f3b);
+    border-radius: 30%;
+}
+
+.logo-linkedin {
+    color: #ffff;
+}
+
+.logo-linkedin:hover {
+    color: #0a66c2;
+    background-color: #ffff;
+    border-radius: 15%;
+
+}
+
+.logo-gmail {
+    color: #ffff;
+}
+
+.alert {
+    display: none;
+}
+
+@media only screen and (max-width:767px) {
+    .container-section-words {
+        margin-top: 2rem;
+    }
+}
